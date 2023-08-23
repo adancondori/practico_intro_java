@@ -13,4 +13,27 @@ public class Serie {
             System.out.println(par + ", ");
         }
     }
+
+    //60, 1, 58, 3, 56, 5, 54, 7, 52, 9, 50, 11
+    public void practico2(int cantidad) {
+        int impar = 60;
+        int par = 1;
+        for (int i = 1; i <= cantidad; i++) {
+            if (i % 2 != 0 ){
+                System.out.print(impar + ", ");
+                impar = impar -2;
+            } else {
+                System.out.print(par + ", ");
+                par = par + 2;
+            }
+        }
+    }
+    public void practico4(int cantidad) {
+        int aux = 1;
+        for (int i = 0; i < cantidad; i++) {
+            int resultado = i * aux;
+            System.out.print(resultado + ", ");
+            aux = aux + 1;
+        }
+    }
 }
