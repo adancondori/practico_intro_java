@@ -3,6 +3,9 @@ public class Main {
         Serie s = new Serie();
         //s.generarNNumeros(5);
         //s.generarNPares(5);
-        s.practico4(5);
+        //s.practico4(5);
+        Sumatorias sumatorias = new Sumatorias();
+        int resultado = sumatorias.practico2(5);
+        System.out.println("Resultado: " + resultado);
     }
 }
